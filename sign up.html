@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="sign up.css">
+</head>
+<body>
+    <h1>Sign up</h1>
+    
+    <hr>
+    <form action="index.html">  
+        <div>
+           <label for=""><strong>First Name :</strong></label>
+           <input type="text" name="firstName" placeholder="Enter First Name">
+        </div>
+        <br>
+        <div> 
+           <label for=""><strong>Last Name :</strong> :</label>
+           <input type="text" name="lastName" placeholder="Enter Last Name">
+        </div>
+        <br>
+        <div> 
+            <label for=""><strong>Email ID :</strong></label>
+            <input type="email" name="email" placeholder="Enter your email Id">
+        </div>
+         <br>
+        <div> 
+            <label for=""><strong>Mobile Number :</strong></label>
+            <input type="number" name="mobile number" placeholder="Enter your mobile number">
+         </div> 
+         <br>
+         <div>
+             <label for=""><strong>Birth Date :</strong></label>
+             <input type="date" name="birth date" placeholder="Enter your date of birth">
+         </div>
+         <br>
+         <div id="wrapper">
+            <div id="dialog">
+              <button class="close">×</button>
+              <h3>Please enter the 4-digit verification code we sent via SMS:</h3>
+              <div id="form">
+                <input type="text" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
+                <input type="text" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" /><input type="text" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" /><input type="text" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
+                <button class="btn btn-primary btn-embossed">Verify</button>
+              </div>
+              
+              <div>
+                Didn't receive the code?<br />
+                <a href="#">Send code again</a><br />
+                <a href="#">Change phone number</a>
+              </div>
+              <br>
+              <input type="submit" name="submit" value="Submit" class="submit">
+         </form>
+       <div>
+           <br>
+           Copyright &copy; 2020 ,Matrix
+       </div>
+             
+ 
+            
+</body>
+</html>

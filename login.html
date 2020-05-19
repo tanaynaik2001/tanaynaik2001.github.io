@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <h2>Already a member?</h2>
+    
+    <form action="index.html">
+        <div>
+        <label for=""><strong>Email Id :</strong></label>
+        <input type="text" name="email id" placeholder="Enter your Email Id">
+        </div>
+        <br>
+        <div>
+            <label for=""><strong>Mobile Number :</strong></label>
+            <input type="number" name="number" placeholder="Enter your mobile number">
+        </div>
+        <br>
+        <div id="wrapper">
+            <div id="dialog">
+              <button class="close">×</button>
+              <h3>Please enter the 4-digit verification code we sent via SMS:</h3>
+              <div id="form">
+                <input type="number" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
+                <input type="number" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" /><input type="number" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" /><input type="number" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
+                <button class="btn btn-primary btn-embossed">Verify</button>
+              </div>
+              
+              <div>
+                Didn't receive the code?<br />
+                <a href="#">Send code again</a><br />
+                <a href="#">Change phone number</a>
+              </div>
+
+    </form>
+    <br>
+    <a href="website.html" target="_blank" class="login">Login</a>
+    <footer>
+    <div class="copyright">
+        <br>
+    Copyright &copy;2020 , Matrix
+    </div>
+    </footer>
+</body>
+</html>
