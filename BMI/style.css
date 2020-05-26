@@ -1,0 +1,52 @@
+body{
+    background-color: #404040;
+    margin: 0;
+    padding: 0;
+}
+#header{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#008b8b;
+    font-weight: 300;
+    text-align: center;
+    margin: 40px;
+}
+.form{
+    text-align: center;
+}
+.form input{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+#btn{
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #008b8b;
+    color: white;
+}
+.about{
+    text-align: center;
+    color: #f6f6e0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 60px;
+
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+#output{
+    text-align: center;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 5px;
+    font-weight: bold;
+}
+#notice{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
