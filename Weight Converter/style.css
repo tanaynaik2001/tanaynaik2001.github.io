@@ -1,0 +1,60 @@
+body{
+    background-color: #262626;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    text-align: center;
+    color: #8fbbbc;
+    margin: 40px;
+    font-weight:lighter;
+}
+#form{
+    text-align: center;
+    padding: 10px;
+    margin: 40px;
+
+}
+#inputWeight{
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px;
+    border: 20px;
+}
+
+#output{
+    text-align: center;
+    margin: auto;
+}
+footer{
+    text-align: center;
+    padding:50px;
+    color:#fffbd4 ;
+    font-size: large;
+
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+#grams{
+    border: 2px solid ;
+    padding: 10px;
+    color:#fffbd4 ;
+    background-color:#cd5c5c ;
+}
+
+#pounds{
+    border: 2px solid ;
+    padding: 10px;
+    color:#fffbd4 ;
+    background-color:#4169e1 ;
+}
+
+#ounces{
+    border: 2px solid ;
+    padding: 10px;
+    color:#fffbd4 ;
+    background-color: #33ff99;
+}
