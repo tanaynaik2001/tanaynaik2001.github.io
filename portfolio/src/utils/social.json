@@ -1,0 +1,23 @@
+{
+    "ig": {
+        "name": "instagram",
+        "link": "https://www.instagram.com/_tanay_naik/",
+        "color": "#e91e63"
+    },
+    "li": {
+        "name": "linked-in",
+        "link": "https://www.linkedin.com/in/tanay-naik-9693831a4/",
+        "color": "#0077b5"
+    },
+    "gi": {
+        "name": "github",
+        "link": "https://github.com/tanaynaik2001",
+        "color": "black"
+    },
+    "mail": {
+        "name": "email",
+        "link": "mailto:tanayn945@gmail.com",
+        "color": "#FBBC05"
+    }
+    
+}

@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Home from "./Pages/Home";
+
+import Footer from "./components/Footer";
+import InternshipCard from "./components/InternshipCard";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Drawer from "./components/Drawer";
+import Navbar from "./components/Navbar";
+import YoutubeCard from "./components/YoutubeCard";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div
+      style={{ minHeight: "100vh", height: "auto", backgroundColor: "#1e1e30" }}
+    >
+      <Navbar />
+      <Home />
+      <InternshipCard />
+      <YoutubeCard />
+      <div style={{ marginTop: 50 }}>
+        <Footer />
+      </div>
     </div>
+    // <Drawer />
   );
 }
 
